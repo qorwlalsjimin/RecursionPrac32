@@ -11,13 +11,10 @@ namespace RecursionPrac32
         static void Main(string[] args)
         {
             Fibonacci fibo = new Fibonacci();
-            Console.WriteLine(fibo.Get(1));
-            Console.WriteLine(fibo.Get(2));
-            Console.WriteLine(fibo.Get(3));
-            Console.WriteLine(fibo.Get(4));
-            Console.WriteLine(fibo.Get(5));
-            Console.WriteLine(fibo.Get(6));
-            Console.WriteLine(fibo.Get(7));
+            Console.WriteLine(fibo.Get(50));
+
+            FibonacciAdv ifboAdv = new FibonacciAdv();
+            Console.WriteLine(FibonacciAdv.Get(50));
         }
     }
 }
